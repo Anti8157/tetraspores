@@ -21,7 +21,7 @@ public class TSFactories{
         bioLab = new AttributeCrafter("bio-lab"){{
             requirements(Category.production, with(Items.copper, 50, Items.lead, 50, Items.silicon, 75, Items.plastanium, 15 ));
             outputItem = new ItemStack(Items.sporePod, 5);
-            craftTime = 300;
+            craftTime = 200;
             size = 3;
             hasLiquids = true;
             hasPower = true;
