@@ -15,7 +15,7 @@ public class TSMod extends Mod{
 
     @Override
     public void loadContent(){
-        TSItems.load();
+        TSFactories.load();
     }
 
 }
